@@ -92,7 +92,7 @@ struct fdpic_dummy_loadmap {
 #endif
 
 #define AUX_CNT 32
-#define DYN_CNT 32
+#define DYN_CNT 37
 
 typedef void (*stage2_func)(unsigned char *, size_t *);
 typedef _Noreturn void (*stage3_func)(size_t *);
